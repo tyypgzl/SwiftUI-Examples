@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75EFC5B12D22B55200D33728 /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75EFC5C12D22B55400D33728 /* LandmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75EFC5CB2D22B55400D33728 /* LandmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EFC5B12D22B55200D33728 /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Landmark.app; path = "/Users/tayyipguzel/Desktop/dev/personal/ios/Landmark/build/Debug-iphoneos/Landmark.app"; sourceTree = "<absolute>"; };
+		75EFC5C12D22B55400D33728 /* LandmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LandmarkTests.xctest; path = "/Users/tayyipguzel/Desktop/dev/personal/ios/Landmark/build/Debug-iphoneos/Landmark.app/PlugIns/LandmarkTests.xctest"; sourceTree = "<absolute>"; };
+		75EFC5CB2D22B55400D33728 /* LandmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LandmarkUITests.xctest; path = "/Users/tayyipguzel/Desktop/dev/personal/ios/Landmark/build/Debug-iphoneos/LandmarkUITests-Runner.app/PlugIns/LandmarkUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +78,7 @@
 				75EFC5B32D22B55200D33728 /* Landmark */,
 				75EFC5C42D22B55400D33728 /* LandmarkTests */,
 				75EFC5CE2D22B55400D33728 /* LandmarkUITests */,
-				75EFC5B22D22B55200D33728 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		75EFC5B22D22B55200D33728 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75EFC5B12D22B55200D33728 /* Landmark.app */,
-				75EFC5C12D22B55400D33728 /* LandmarkTests.xctest */,
-				75EFC5CB2D22B55400D33728 /* LandmarkUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +185,7 @@
 			mainGroup = 75EFC5A82D22B55200D33728;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 75EFC5B22D22B55200D33728 /* Products */;
+			productRefGroup = 75EFC5A82D22B55200D33728;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
