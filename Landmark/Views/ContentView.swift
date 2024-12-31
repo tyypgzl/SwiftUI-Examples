@@ -15,6 +15,7 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }
 
 // Control+Enter => Open right click
