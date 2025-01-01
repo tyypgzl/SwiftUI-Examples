@@ -15,6 +15,7 @@ struct LandmarkApp: App {
         WindowGroup {
             ContentView()
                 .environment(modelData)
+                .preferredColorScheme(modelData.isDarkMode ? .dark : .light)
         }
     }
 }
